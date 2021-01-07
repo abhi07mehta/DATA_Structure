@@ -1,6 +1,8 @@
 #include <stdio.h>
+ extern int str();
 
-int main(void) {
-  printf("Hello World\n");
-  return 0;
+int main(){
+
+str();
+return 0;
 }
